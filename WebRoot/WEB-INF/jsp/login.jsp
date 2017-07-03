@@ -4,9 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>LoginPage</title>
 </head>
 <body>
-	
+	<div id="login">
+		<span>Photo Studio of Xinxin in Yangzhou</span>
+		<form>
+			<span>用户名</span><br>
+			<input type="text" name="username"><br>
+			<span>密码</span><br>
+			<input type="password" name="password"><br>
+			<input type="button" value="登录">
+		</form>
+	</div>
 </body>
 </html>

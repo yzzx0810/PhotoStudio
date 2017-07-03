@@ -1,5 +1,5 @@
 package com.yangzhou.photo.service;
 
-public class UserService {
-
+public interface UserService {
+	public boolean loginValidate();
 }
